@@ -13,7 +13,24 @@ Escrita en Markdown y LaTex Beamer y transpilada con pandoc.
 pandoc pre.md -t beamer -o pre.pdf
 ```
 
+Si se quisiera generar el código LaTex para complementarlo aún más 
+
 ## Consideraciones
+
+### Cambiar Temas
+
+En el preambulo de la presentación se introducen los metadatos de esta.
+
+Manipulando las siguientes etiquetas se pueden probar distintas combinaciones de temas:
+
+```
+theme:
+- PaloAlto
+colortheme:
+- dolphin
+```
+
+Se puede visualizar distintas combinaciones [aquí](https://mpetroff.net/files/beamer-theme-matrix/).
 
 ### Jerarquia de Secciones
 
@@ -29,6 +46,15 @@ pandoc pre.md -t beamer -o pre.pdf
 ## Diapositiva 1
 
 Hola 1
+
+### Ecuaciones Importantes
+
+1. Esto estara dentro de un recuadro
+2. $x = y$
+3. $\pi = 3.1415...$
+
+### Otro recuadro
+Me gusta Markdown
 
 ## Diapositiva 2
 
@@ -66,7 +92,7 @@ Si se introducen con el syntax usual de Markdown no se puede controlar el tamañ
 
 ### Videos
 
-El video debe estar en la misma carpeta o en un subdirectorio.
+El video debe estar en la misma carpeta o en un subdirectorio. Esto acepta varios formatos, sin embargo es recomendable usar mp4. (Si se tiene un GIF convertirlo a mp4).
 
 Se puede introducir de la siguiente manera:
 
@@ -88,3 +114,13 @@ Se puede introducir de la siguiente manera:
 ```
 
 Lo importante es cambiar `addresource` y `source`.
+
+### Ecuaciones
+
+Para introducir terminos matemáticos se rodean por el simbolo peso `$`.
+
+Por ejemplo `$x^4`.
+
+Para introducir una ecuación (automáticamente son enumeradas y centradas) se rodea la ecuación con dos simbolos pesos, por ejemplo:
+
+`$$x = y + 2$$`
