@@ -13,7 +13,11 @@ Escrita en Markdown y LaTex Beamer y transpilada con pandoc.
 pandoc pre.md -t beamer -o pre.pdf
 ```
 
-Si se quisiera generar el código LaTex para complementarlo aún más 
+Si se quisiera generar el código LaTex para complementarlo aún más en un editor de LaTex propio se puede usar el siguiente comando: 
+
+```
+pandoc pre.md -t beamer -o pre.tex
+```
 
 ## Consideraciones
 
@@ -31,6 +35,8 @@ colortheme:
 ```
 
 Se puede visualizar distintas combinaciones [aquí](https://mpetroff.net/files/beamer-theme-matrix/).
+
+Al igual que los temas, otra información importante se puede modificar en el mismo preambulo.
 
 ### Jerarquia de Secciones
 
