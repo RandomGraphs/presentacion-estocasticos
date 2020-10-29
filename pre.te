@@ -1,0 +1,79 @@
+\hypertarget{aber}{%
+\section{Aber}\label{aber}}
+
+\begin{frame}{Agenda}
+\protect\hypertarget{agenda}{}
+\begin{figure}
+\centering
+\includegraphics[width=4cm]{img_1.png}
+\caption{alt text}
+\end{figure}
+
+Here is text
+
+\begin{itemize}
+\tightlist
+\item
+  \(X + Y\)
+\item
+  \(Z\)
+\item
+  List3
+\end{itemize}
+
+\[x = \frac{1}{2}\]
+\end{frame}
+
+\begin{frame}{AAA}
+\protect\hypertarget{aaa}{}
+Un grafo \(G(p, n)\) \ldots{} \(\text{Ec. normal:} \sum_i^j\)
+\[\text{Ec. centrada:} \sum_i^j\]
+\end{frame}
+
+\hypertarget{notaciuxf3n-asintotica}{%
+\section{Notación Asintotica}\label{notaciuxf3n-asintotica}}
+
+\begin{frame}{subtitulo}
+\protect\hypertarget{subtitulo}{}
+\animategraphics[loop,controls,width=8cm]{10}{something-}{0}{16}
+
+\begin{block}{AAAA}
+\protect\hypertarget{aaaa}{}
+\begin{enumerate}
+\tightlist
+\item
+  A
+\item
+  B
+\item
+  C
+\end{enumerate}
+\end{block}
+\end{frame}
+
+\begin{frame}{subsección}
+\protect\hypertarget{subsecciuxf3n}{}
+\{ \movie[width=8cm,height=4.5cm]{test}{video.mp4} \}
+
+\begin{block}{juju}
+\protect\hypertarget{juju}{}
+AA
+
+UUUUU
+\end{block}
+
+\begin{block}{jeje}
+\protect\hypertarget{jeje}{}
+AA
+
+\begin{enumerate}[<+->]
+\tightlist
+\item
+  1
+\item
+  2
+\item
+  3
+\end{enumerate}
+\end{block}
+\end{frame}
