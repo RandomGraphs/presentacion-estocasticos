@@ -125,7 +125,7 @@ Lo importante es cambiar `addresource` y `source`.
 
 Para introducir terminos matemáticos se rodean por el simbolo peso `$`.
 
-Por ejemplo `$x^4`.
+Por ejemplo `$x^4$`.
 
 Para introducir una ecuación (automáticamente son enumeradas y centradas) se rodea la ecuación con dos simbolos pesos, por ejemplo:
 
